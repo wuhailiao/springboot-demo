@@ -13,7 +13,7 @@ asfsd
  * @date 2017/9/26 22:48
  * @Description: 控制器
  */
-@RestController
+@Controller
 public class StudentController {
 
     @Autowired
@@ -21,9 +21,8 @@ public class StudentController {
 asdfsdff
     @RequestMapping(value = "/qryById")
     public Student qry(int id){
-		//添加注释进行文件对比
-    //来制造冲突
-        System.out.println("修改123");
+   //再次志超冲突
+    System.out.println("修改123");
         return service.queryById(id);
     }
 }
