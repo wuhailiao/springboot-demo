@@ -13,16 +13,16 @@ asfsd
  * @date 2017/9/26 22:48
  * @Description: 控制器
  */
-@RestController
+@Controller
 public class StudentController {
 
     @Autowired
     private StudentService service;
-
     @RequestMapping(value = "/qryById")
     public Student qry(int id){
-		//看看再次的冲突
-        System.out.println("修改123");
+    //来制造冲突
+   //再次志超冲突
+    System.out.println("修改123");
         return service.queryById(id);
     }
 }
