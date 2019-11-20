@@ -21,6 +21,7 @@ public class StudentController {
 
     @RequestMapping(value = "/qryById")
     public Student qry(int id){
+		//添加注释进行文件对比
         System.out.println("修改123");
         return service.queryById(id);
     }
