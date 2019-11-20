@@ -18,11 +18,10 @@ public class StudentController {
 
     @Autowired
     private StudentService service;
-asdfsdff
+
     @RequestMapping(value = "/qryById")
     public Student qry(int id){
-		//添加注释进行文件对比
-    //来制造冲突
+		//看看再次的冲突
         System.out.println("修改123");
         return service.queryById(id);
     }
