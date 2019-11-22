@@ -34,8 +34,8 @@ public class StudentServiceImpl implements StudentService {
         student.setBirth(new Date());
 	    HasHmap  map=new HashMap();
 		List<> list=new ArrayList();
-		list.add(student);
-		//添加代码再次自造冲突
+		list.add(student22222);
+		list.add(asdfasdfsf);		//添加代码再次自造冲突
         String sss="sdfsadf";
         return student;
     }
