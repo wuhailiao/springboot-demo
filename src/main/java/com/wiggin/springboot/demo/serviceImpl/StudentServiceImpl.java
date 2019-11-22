@@ -30,7 +30,7 @@ public class StudentServiceImpl implements StudentService {
         student.setSex("nannnnnnn");
         student.setDepartment("运维");
         student.setName("xdclass-wiggin");
-
+	 student.setAge("33333");
         student.setBirth(new Date());
 		List<> list=new ArrayList();
 		//添加代码再次自造冲突
