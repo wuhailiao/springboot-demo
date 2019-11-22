@@ -33,6 +33,7 @@ public class StudentServiceImpl implements StudentService {
         student.setGoodCoder("wuhailiao");
         student.setBirth(new Date());
 		List<> list=new ArrayList();
+		list.add(student);
 		//添加代码再次自造冲突
         String sss="sdfsadf";
         return student;
