@@ -27,9 +27,11 @@ public class StudentServiceImpl implements StudentService {
         student.setSex("女");
         student.setDepartment("运维");
         student.setName("xdclass-wiggin");
-sdfsdfasdfsdfsdfsfsdf
+
         student.setBirth(new Date());
 		List<Student> list=new ArrayList();
+		//添加代码再次自造冲突
+        String sss="sdfsadf";
         return student;
     }
 }
