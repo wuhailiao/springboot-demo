@@ -27,6 +27,7 @@ public class StudentServiceImpl implements StudentService {
         student.setSex("女");
         student.setDepartment("运维");
         student.setName("xdclass-wiggin");
+sdfsdfasdfsdfsdfsfsdf
         student.setBirth(new Date());
 		List<Student> list=new ArrayList();
         return student;
