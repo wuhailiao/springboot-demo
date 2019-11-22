@@ -23,6 +23,9 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public Student queryById(int id) {
+	    if(true){
+	    	return true;
+	    }
         Student student = new Student();
         student.setSex("女");
         student.setDepartment("运维");
