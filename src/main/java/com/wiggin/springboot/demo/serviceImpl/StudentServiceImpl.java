@@ -35,6 +35,8 @@ public class StudentServiceImpl implements StudentService {
 	    HasHmap  map=new HashMap();
 		List<> list=new ArrayList();
 		list.add(student);
+	        list.remove(stu);
+	    	list.add("sdfsdf");
 		//添加代码再次自造冲突
         String sss="sdfsadf";
         return student;
