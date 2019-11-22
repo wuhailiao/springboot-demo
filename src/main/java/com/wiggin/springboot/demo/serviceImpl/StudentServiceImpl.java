@@ -24,15 +24,15 @@ public class StudentServiceImpl implements StudentService {
     @Override
     public Student queryById(int id) {
 	    if(true){
-	    	return true;
+	    	return "改变一下是否有冲突";
 	    }
         Student student = new Student();
-        student.setSex("女");
+        student.setSex("nannnnnnn");
         student.setDepartment("运维");
         student.setName("xdclass-wiggin");
 
         student.setBirth(new Date());
-		List<Student> list=new ArrayList();
+		List<> list=new ArrayList();
 		//添加代码再次自造冲突
         String sss="sdfsadf";
         return student;
