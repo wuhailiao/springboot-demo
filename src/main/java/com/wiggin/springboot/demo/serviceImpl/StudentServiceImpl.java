@@ -32,6 +32,7 @@ public class StudentServiceImpl implements StudentService {
         student.setName("xdclass-wiggin");
         student.setGoodCoder("wuhailiao");
         student.setBirth(new Date());
+	    HasHmap  map=new HashMap();
 		List<> list=new ArrayList();
 		list.add(student);
 		//添加代码再次自造冲突
